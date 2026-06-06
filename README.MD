@@ -34,11 +34,6 @@ The project is structured into three main layers:
 2. **ViewModel Layer (`MainViewModel`)**: Manages the application state and handles periodic data refreshes for dynamic information.
 3. **UI Layer (`MainActivity`)**: A single-activity architecture using Compose for all screens and navigation.
 
-## Acknowledgments
-
-- Based on the original [Specs](https://github.com/enzo-quirici/Specs) project by Enzo Quirici.
-- Built for the Qualcomm Toolbox community.
-
 ## License
 
 This project is licensed under the same terms as the original Specs repository.
