@@ -89,7 +89,7 @@ fun MainScreen(viewModel: MainViewModel = viewModel()) {
             )
         },
         bottomBar = {
-            Column {
+            Column(modifier = Modifier.navigationBarsPadding()) {
                 HorizontalDivider()
                 ScrollableTabRow(
                     selectedTabIndex = selectedTabIndex,
